@@ -1,0 +1,5 @@
+-r requirements.txt
+pyinstaller
+pygments>=2.20.0
+pytest
+ruff
