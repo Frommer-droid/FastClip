@@ -1,0 +1,51 @@
+logo.png
+*_GUIDE.md
+00_*
+!00_CrRel_setup.pyw
+!00_Move.pyw
+*_template.pyw
+*.lnk
+*.bat
+*.log
+*.tmp
+*.json
+*.toml
+build/
+dist/
+Build_Tools/build/
+Build_Tools/dist/
+FastClip/
+.DS_Store
+.idea/
+.vscode/
+.env.local
+.env.production
+test_output/
+fixtures/temp/
+node_modules/
+pycache/
+target/
+AGENTS.md
+handoff.md
+.agents/
+.venv/
+
+# Локальные скрипты и шаблоны Build_Tools
+Build_Tools/*.template
+Build_Tools/*_template.py
+
+# Технические файлы Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Локальные данные приложения
+clipboard_history.txt
+clipboard_images/
+
+# Пользовательские Postman-коллекции
+.postman/
+postman/
+
+# Файл спецификации должен оставаться в репозитории
+!Build_Tools/*.spec
